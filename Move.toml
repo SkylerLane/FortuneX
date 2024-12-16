@@ -1,0 +1,18 @@
+[package]
+name = "FortuneX"
+version = "1.0.0"
+authors = []
+
+[addresses]
+fortunex_addr = "_"
+
+[dev-addresses]
+fortunex_addr = "0x1c36398944a4b36d803e64eba0258048c8d6dd7911529088db4a7a79d4f0b732"
+
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
